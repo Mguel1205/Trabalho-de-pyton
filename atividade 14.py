@@ -1,0 +1,13 @@
+# Programa simples para validar CPF
+
+# Entrada de dados
+cpf = input("Digite o CPF (somente números): ")
+
+# Remove espaços e traços
+cpf = cpf.replace(".", "").replace("-", "").strip()
+
+# Verifica se o CPF possui 11 números
+if len(cpf) == 11 and cpf.isdigit():
+    print("\nCPF válido!")
+else:
+    print("\nCPF inválido!")
