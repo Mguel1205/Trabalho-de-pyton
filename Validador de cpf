@@ -1,4 +1,4 @@
-# Programa simples para validar CPF
+# Programa para validar CPF
 
 # Entrada de dados
 cpf = input("Digite o CPF (somente números): ")
